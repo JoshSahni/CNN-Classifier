@@ -55,7 +55,7 @@ gr_interface = gr.Interface(
     fn=predict_image,
     inputs=gr.Image(type="pil"),
     outputs=["text", gr.Image(type="filepath")],
-    title="Lung Cancer Detection",
+    title="Pneumonia Detection",
     description="Upload a chest X-ray image to predict whether it is positive or negative for Pneumonia.",
     examples=
 )
